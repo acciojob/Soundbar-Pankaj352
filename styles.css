@@ -1,1 +1,38 @@
-/*  your css code here. If applicable */
+/* Styling for the main container */
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    height: 100vh;
+    background-color: mediumpurple;
+}
+
+/* Button styling */
+.btn {
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    background-color: rebeccapurple;
+    color: white;
+    border-radius: 8px;
+    transition: background 0.3s ease, transform 0.2s;
+}
+
+/* Hover effect for buttons */
+.btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+}
+
+/* Styling for the stop button */
+.stop {
+    background-color: red;
+}
+
+.stop:hover {
+    background-color: darkred;
+}
